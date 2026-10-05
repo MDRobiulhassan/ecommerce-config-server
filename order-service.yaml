@@ -26,4 +26,4 @@ server:
   port: 9020
 
 my:
-  properties : order-github-default
+  variable : order-github-default
