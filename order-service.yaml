@@ -24,3 +24,6 @@ server:
   servlet:
     context-path: /orders
   port: 9020
+
+my:
+  properties : order-github-default
