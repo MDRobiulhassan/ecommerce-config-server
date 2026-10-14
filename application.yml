@@ -2,13 +2,13 @@ management:
   tracing:
     sampling:
       probability: 1.0
-    export:
-      zipkin:
-        endpoint: http://localhost:9411
   endpoints:
     web:
       exposure:
         include: "*"
+spring:
+  zipkin:
+    baseUrl: http://localhost:9411
 
 eureka:
   client:
